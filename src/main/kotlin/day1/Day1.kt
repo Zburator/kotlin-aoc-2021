@@ -1,18 +1,12 @@
 package day1
 
-import java.io.BufferedReader
-import java.io.File
+import utils.readFile
 
 fun main() {
     val path = "./src/main/resources/day1/input1.txt"
     println("Part 1 output " + part1(readFile(path)))
     println("Part 2 output " + part2(readFile(path)))
 
-}
-
-fun readFile(path: String): List<String> {
-    val bufferedReader: BufferedReader = File(path).bufferedReader()
-    return bufferedReader.readLines();
 }
 
 fun part1(text: List<String>): Int {
