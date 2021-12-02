@@ -1,4 +1,7 @@
-./gradle/*
+gradle
+build
+gradle/*
+build/*
 ./build/*
 ./gradle/*
 .idea/gradle.xml
