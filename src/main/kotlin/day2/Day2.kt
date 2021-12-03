@@ -25,8 +25,7 @@ fun parseDepth(line:String) : Int {
         else -> 0
     }
 }
-
-fun parseForward(line:String) : Int {
+.
     var splited = line.split(" ")
     return when(splited[0]) {
         "forward" ->  splited[1].toInt()
