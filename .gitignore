@@ -1,5 +1,7 @@
 gradle
 build
+/build
+/build/*
 gradle/*
 build/*
 ./build/*
