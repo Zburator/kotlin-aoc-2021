@@ -7,9 +7,9 @@ fun main() {
     val path = "./src/main/resources/day7/input.txt"
     var text = readFile(path)
     var input= text[0].split(",").filter{it!=""}.map { it.toInt() }
-//    cheapestFuelPosition
+
     println("Part 1 output " +cheapestFuelPosition(input))
-    println("Part 1 output " +part2CheapestFuelProgresion(input))
+    println("Part 2 output " +part2CheapestFuelProgresion(input))
 
 }
 
