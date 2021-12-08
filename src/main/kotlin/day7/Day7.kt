@@ -44,9 +44,9 @@ fun cheapestFuelPosition(list: List<Int> ) : Long {
 
 fun part2CheapestFuelProgresion(list: List<Int> ) : Long {
     var map = createMap(list)
-//    var distanteMap = mutableMapOf<Int, Long>()
     var distanceMap = mutableMapOf<Int,Long>()
     var maxKey = map.maxBy { it.key }!!.key
+
     for(i in 1..maxKey) {
         distanceMap[i] =0;
     }
